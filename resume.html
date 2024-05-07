@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Resume</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+        }
+
+        .main {
+            background-color: orange;
+            padding-top: 20px;
+            padding-bottom: 10px;
+            padding-left: 40px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+        }
+
+        .left-column {
+            flex: 0 0 30%;
+            background-color: #090909;
+            border-right: 1px solid #ccc;
+            color: white;
+            position: relative;
+        }
+
+        .right-column {
+            padding-top: 70px;
+            flex: 1;
+            background-color: #fff;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            margin-top: 0;
+        }
+
+        .section {
+            margin-bottom: 30px;
+            padding: 20px;
+        }
+
+        .line {
+            width: calc(100% + 20px);
+            height: 3px;
+            background-color: orange;
+            margin-left: 0px;
+        }
+
+        hr {
+            height: 2px;
+            background-color: black;
+        }
+
+        .education-table {
+            margin-left: 20px;
+            font-size: 15px;
+            width: 100%;
+
+        }
+
+        .education-table td {
+            padding: 2px;
+        }
+
+        #Photo {
+            display: block;
+            margin: auto;
+        }
+
+        .left-column {
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+
+        .references {
+            margin-left: 20px;
+            font-size: 15px;
+            padding-top: 10px;
+        }
+
+
+
+        .skill {
+            padding-left: 20%;
+        }
+
+        .skill td {
+            padding: 0 20px;
+        }
+
+
+        .info {
+            background: orange;
+            color: white;
+            height: 30px;
+            padding-left: 55px;
+        }
+
+        .info-child {
+            background-color: #2e2e2e;
+            padding-left: 20px;
+            height: 100%;
+        }
+
+        .info-value {
+            padding-left: 90px;
+
+        }
+
+        .experience {
+            width: 100%;
+
+        }
+
+        .exp-year {
+            width: 30%;
+            vertical-align: top;
+            padding-top: 15px;
+        }
+
+        .skillbar {
+            height: 10px;
+            background-color: #6c6c6c;
+        }
+
+        .skillbar-child {
+            height: 100%;
+            background-color: #090909;
+            width: 80%;
+        }
+
+        .skill {
+            width: 100%;
+        }
+
+        .education {
+            padding-left: 20px;
+        }
+
+        .ref-list {
+            padding-left: 20px;
+        }
+
+        .info-list {
+            padding-top: 5px;
+            padding-left: 15px;
+        }
+
+        .right-column-main {
+            padding-left: 20px;
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="column left-column">
+            <section class="section">
+                <img id="Photo"
+                    src="https://1.bp.blogspot.com/-kp_WUVLr6Y8/XmYLHJKI6PI/AAAAAAAADNo/oFSrzb8blTQYrT6VF-WoXHMvUZcyMKrywCLcBGAsYHQ/s1600/51.jpg"
+                    alt="Photo" height="300">
+                <br>
+                <section class="education">
+                    <h3>EDUCATION</h3>
+                    <div class="line"></div>
+                    <table class="education-table">
+                        <thead>
+                            <tr>
+                                <td> </td>
+                            </tr>
+                            <tr>
+                                <td> </td>
+                            </tr>
+                            <tr>
+                                <td> </td>
+                            </tr>
+
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Qualification</td>
+                                <td>12</td>
+                                <td>B.Tech CS</td>
+                            </tr>
+                            <tr>
+                                <td>Institute</td>
+                                <td>THSS of IHRD</td>
+                                <td>CE Kallooppara</td>
+                            </tr>
+                            <tr>
+                                <td>Year</td>
+                                <td>2019</td>
+                                <td>2023</td>
+                            </tr>
+                            <tr>
+                                <td>Percentage</td>
+                                <td>82.3</td>
+                                <td>72</td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </section>
+            </section>
+            <section class="references section">
+                <h3>REFERENCE</h3>
+                <div class="line"></div>
+
+                <div class="ref-list">
+                    <p>Fardeen Gandhi</p>
+                    <p>Software Engineer | Experion Technologies</p>
+                    <p>Number : 7994217013</p>
+                </div>
+                <br>
+                <div class="ref-list">
+                    <p>Sreeram Gandhi</p>
+                    <p>Software Engineer | Experion Technologies</p>
+                    <p>Number : 9497158008</p>
+                </div>
+                <br>
+                <div class="ref-list">
+                    <p>Arjun Gandhi</p>
+                    <p>Software Engineer | Experion Technologies</p>
+                    <p>Number : 7306447978</p>
+                </div>
+                <br>
+            </section>
+            <section class="">
+                <div class="personal-info">
+                    <div class="info">
+                        <div class="info-child">
+
+                            <p class="info-list">Phone</p>
+                        </div>
+                    </div>
+                    <p class="info-value">7034599974</p>
+                    <div class="info">
+                        <div class="info-child">
+
+                            <p class="info-list">Email</p>
+                        </div>
+                    </div>
+                    <p class="info-value">dharsancs999@gmail.com</p>
+                    <div class="info">
+                        <div class="info-child">
+
+                            <p class="info-list">Website</p>
+                        </div>
+                    </div>
+                    <p class="info-value">www.experion.com</p>
+                    <div class="info">
+                        <div class="info-child">
+
+                            <p class="info-list">Address</p>
+                        </div>
+                    </div>
+                    <p class="info-value">Chazhickara</p>
+                    <p class="info-value">Panickankudy</p>
+                    <p class="info-value">Idukki</p>
+                </div>
+
+            </section>
+        </div>
+        <div class="column right-column">
+            <div class="main">
+                <p style="font-size: 30px;"><b>DHARSAN</b> C SAJEEV</p>
+                <p style="font-size: 25px;">Associate Software Developer</p>
+            </div>
+            <section class="section">
+                <div class="right-column-main">
+                    <h3>About Me</h3>
+                    <hr>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis, justo vel suscipit
+                        scelerisque, erat velit vestibulum libero, id condimentum quam elit non felis. Vivamus
+                        sollicitudin
+                        ante et neque hendrerit, vitae maximus purus fermentum. Integer quis velit aliquam, rutrum diam
+                        non,
+                        sollicitudin sapien. Etiam porta, nisi a condimentum aliquet, mi ligula malesuada felis, in
+                        ultricies sapien ligula nec turpis. Sed in velit mi. Donec nec ultrices sapien. Nulla facilisi
+                    </p>
+                    <div>
+                        <h3>Work Experience</h3>
+                        <hr>
+                        <table class="experience">
+
+                            <tbody>
+                                <tr>
+                                    <td class="exp-year">2013-2014</td>
+                                    <td>
+                                        <P><b>JOB POSITION</b></P>
+                                        <p>Company Name</p>
+                                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque hic magnam
+                                            natus impedit doloremque laudantium ullam incidunt consequatur sit
+                                            dignissimos.</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="exp-year">2013-2014</td>
+                                    <td>
+                                        <P><b>JOB POSITION</b></P>
+                                        <p>Company Name</p>
+                                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque hic magnam
+                                            natus impedit doloremque laudantium ullam incidunt consequatur sit
+                                            dignissimos.</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="exp-year">2013-2014</td>
+                                    <td>
+                                        <P><b>JOB POSITION</b></P>
+                                        <p>Company Name</p>
+                                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque hic magnam
+                                            natus impedit doloremque laudantium ullam incidunt consequatur sit
+                                            dignissimos.</p>
+                                    </td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+                    </div>
+            </section>
+            <section class="section">
+                <div class="right-column-main">
+                    <h3>SOFTWARE SKILL</h3>
+                    <hr>
+                    <table class="skill">
+                        <tr>
+                            <td>
+                                <p>Adobe Photoshop</p>
+                                <div class="skillbar">
+                                    <div class="skillbar-child"></div>
+                                </div>
+                            </td>
+                            <td>
+                                <p>Microsoft Word</p>
+                                <div class="skillbar">
+                                    <div class="skillbar-child"></div>
+                                </div>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <p>C/CPP</p>
+                                <div class="skillbar">
+                                    <div class="skillbar-child"></div>
+                                </div>
+                            </td>
+                            <td>
+                                <p>Microsoft Powerpoint</p>
+                                <div class="skillbar">
+                                    <div class="skillbar-child"></div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>JAVA</p>
+                                <div class="skillbar">
+                                    <div class="skillbar-child"></div>
+                                </div>
+                            </td>
+                            <td>
+                                <p>HTML-5/CSS-3</p>
+                                <div class="skillbar">
+                                    <div class="skillbar-child"></div>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+        </div>
+    </div>
+</body>
+
+</html>
